@@ -2,11 +2,13 @@
 <manifest>
 
 <!-- REMOVALS -->
+<remove-project name="SlimRoms/frameworks_av" />
 <remove-project name="SlimRoms/frameworks_base" />
 <remove-project name="SlimRoms/hardware_libhardware_legacy" />
 <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
 <remove-project name="SlimRoms/hardware_ti_wlan" />
 <remove-project name="SlimRoms/hardware_ti_wpan" />
+<remove-project name="SlimRoms/packages_apps_Camera2" />
 <remove-project name="platform/packages/apps/Launcher3" />
 <remove-project name="SlimRoms/android_prebuilt" />
 <remove-project name="SlimRoms/android_system_netd" />
@@ -27,11 +29,13 @@
 
 <!-- EXTRAS -->
 <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<project name="alteredlikeness/slim_frameworks_av" path="frameworks/av" remote="github" revision="kk4.4-mo4" />
 <project name="alteredlikeness/slim_frameworks_base" path="frameworks/base" remote="github" revision="kk4.4-mo4" />
 <project name="alteredlikeness/slim_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="kk4.4-mo4" />
 <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
+<project name="alteredlikeness/slim_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="kk4.4-mo4" />
 <project name="CyanogenMod/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-11.0" />
