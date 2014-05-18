@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_device_motorola_maserati" path="device/motorola/maserati" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="cm-11.0" />
