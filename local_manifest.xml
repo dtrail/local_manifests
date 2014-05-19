@@ -2,16 +2,16 @@
 <manifest>
 
 <!-- REMOVALS -->
+<remove-project name="SlimRoms/android_build" />
 <remove-project name="SlimRoms/android_external_wpa_supplicant_8" />
-<remove-project name="SlimRoms/frameworks_av" />
 <remove-project name="SlimRoms/frameworks_base" />
 <remove-project name="SlimRoms/hardware_libhardware_legacy" />
 <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
 <remove-project name="SlimRoms/hardware_ti_wlan" />
 <remove-project name="SlimRoms/hardware_ti_wpan" />
-<remove-project name="SlimRoms/packages_apps_Camera2" />
 <remove-project name="SlimRoms/android_prebuilt" />
 <remove-project name="SlimRoms/android_system_netd" />
+<remove-project name="SlimRoms/vendor_slim" />
 
 <!-- DEVICE -->
 <project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="slim4.4" />
@@ -28,16 +28,16 @@
 <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
 
 <!-- EXTRAS -->
+<project name="MO4/slim_android_build" path="build" remote="github" revision="kk4.4-mo4" />
 <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
-<project name="alteredlikeness/slim_frameworks_av" path="frameworks/av" remote="github" revision="kk4.4-mo4" />
-<project name="alteredlikeness/slim_frameworks_base" path="frameworks/base" remote="github" revision="kk4.4-mo4" />
-<project name="alteredlikeness/slim_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="kk4.4-mo4" />
+<project name="MO4/slim_frameworks_base" path="frameworks/base" remote="github" revision="kk4.4-mo4" />
+<project name="MO4/slim_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="kk4.4-mo4" />
 <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
-<project name="alteredlikeness/slim_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="kk4.4-mo4" />
 <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
 <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="cm-11.0" />
+<project name="MO4/vendor_slim" path="vendor/slim" remote="github" revision="kk4.4-mo4" />
 
 </manifest>
