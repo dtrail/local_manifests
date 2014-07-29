@@ -22,7 +22,7 @@
 <project name="MO4/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="slim4.4" />
 
 <!-- KERNEL -->
-<project name="MO4/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
+<project name="RAZR-K-Devs/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="JBX_30X" />
 
 <!-- VENDOR -->
 <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
