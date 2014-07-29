@@ -16,7 +16,7 @@
 <!-- DEVICE -->
 <project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="slim4.4" />
 <project name="MO4/android_device_motorola_maserati" path="device/motorola/maserati" remote="github" revision="slim4.4" />
-<project name="MO4/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="slim4.4" />
+<project name="dtrail/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="slim4.4" />
 <project name="MO4/android_device_motorola_spyder" path="device/motorola/spyder" remote="github" revision="slim4.4" />
 <project name="MO4/android_device_motorola_targa" path="device/motorola/targa" remote="github" revision="slim4.4" />
 <project name="MO4/android_device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="github" revision="slim4.4" />
